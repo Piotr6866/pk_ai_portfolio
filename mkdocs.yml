@@ -1,0 +1,24 @@
+site_name: Portfolio
+site_author: Piotr Kotecki
+site_description: >-
+    Portfolio moich wspaniałych projektów z Data Science i AI!
+
+theme:
+  name: material
+
+nav:
+- Strona Domowa: index.md
+- Obecny projekt:
+  - "Generator napisów do filmów": generator/index.md
+- Poprzednie projekty:
+  - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
+  - "Łączenie danych": laczenie_danych/index.md
+  - "Chatbot Sokratesa": chatbot_Sokratesa/index.md
+  - "Ankieta powitalna": ankieta_powitalna/index.md
+  - "Znajdowanie znajomych na kursie": znajdowanie_znajomych/index.md
+  - "Przewidywanie czasu ukończenia półmaratonu": przewidywanie_czasu/index.md
+
+repo_name: Piotr6866/pk_ai_portfolio 
+repo_url: https://github.com/Piotr6866/pk_ai_portfolio
+
