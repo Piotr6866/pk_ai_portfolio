@@ -7,7 +7,7 @@ Zapraszamy do zapoznania się z projektem mojego autorstwa, który dotyczy anali
 
 <iframe
     id="content"
-    src="titanic2.html"
+    src="titanic.mhtml"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>
