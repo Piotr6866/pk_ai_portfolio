@@ -1,2 +1,5 @@
 site
 .ipynb_checkpoints
+html
+\Titanic.ipynb
+docs\titanic\Titanic2.html
