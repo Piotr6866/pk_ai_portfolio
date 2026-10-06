@@ -3,11 +3,9 @@
 
 Projekt w trakcie realizacji 
 
-<a href="generator.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
-
 <iframe
     id="content"
-    src="generator.html"
+    src="generator2.html"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>
@@ -25,3 +23,22 @@ window.addEventListener('resize', function() {
     resizeIframeToFitContent(iframe);
 });
 </script>
+
+
+<a href="https://generowanie-napisow-z-plikow-mp4-2l2yc3ksb2mr7nhcnyuzgf.streamlit.app/" class="md-button md-button--primary">Link do programu na Streamlit</a>
+
+<script>
+function resizeIframeToFitContent(iframe) {
+    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
+    iframe.contentDocument.body.style["overflow"] = 'hidden';
+}
+window.addEventListener('load', function() {
+    var iframe = document.getElementById('content');
+    resizeIframeToFitContent(iframe);
+});
+window.addEventListener('resize', function() {
+    var iframe = document.getElementById('content');
+    resizeIframeToFitContent(iframe);
+});
+</script>
+
